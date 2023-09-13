@@ -1,0 +1,77 @@
+.navbar {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+
+    .container {
+        .navbar-brand {
+            color: #82ae46;
+            font-weight: 800;
+            font-size: 20px;
+            text-transform: uppercase;
+            display: inline-block;
+            padding-top: 0.3125rem;
+            padding-bottom: 0.3125rem;
+            margin-right: 1rem;
+            font-size: 1.25rem;
+            line-height: inherit;
+            white-space: nowrap;
+
+        }
+
+        .navbar-brand:hover {
+            text-decoration: none;
+            color: black;
+        }
+
+        .navbar-collapse {
+            ul {
+                li {
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+
+    .dropdown-item {
+        display: block;
+        width: 100%; // For `<button>`s
+        clear: both;
+        text-align: inherit; // For `<button>`s
+        white-space: nowrap; // prevent links from randomly breaking onto new lines
+        background-color: transparent; // For `<button>`s
+        border: 0; // For `<button>`s
+    }
+}
+
+.showShopMenu {
+    margin-left: -10px;
+    background-color: #222222;
+    margin-top: 0px;
+    z-index: 1000;
+
+    a {
+        color: aliceblue;
+    }
+}
+
+.showAccount {
+    margin-left: 440px;
+    background-color: #222222;
+    margin-top: 40px;
+    z-index: 2000;
+
+    a {
+        color: aliceblue;
+    }
+}
